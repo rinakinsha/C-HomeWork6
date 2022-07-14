@@ -41,4 +41,4 @@ int[] newarray = ConversionToArray(number);
 Console.Write("Ваш массив: ");
 ShowArray(newarray);
 
-Console.WriteLine("Количество положительных чисел в массиве: " + PositiveNumbers(newarray));
+Console.WriteLine("Количество чисел, которые больше 0, в массиве: " + PositiveNumbers(newarray));
